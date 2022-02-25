@@ -1,2 +1,4 @@
 # Twitter-Sentiment-Analysis
  
+This analytical project allows you to determine the mood of users by text. The sentimentality 140 dataset is used as a dataset. It contains 1,600,000 tweets extracted using the twitter api. The streets have been labeled (0 = negative, 4 = positive), and they can be used to determine moods. The following works were carried out: research data analysis, text preprocessing (removal of stop words, punctuation marks, lemmatization, TF-IDF, tokienization). In the end, two models were built: the basic model (a model based on the naive Bayes model - Rein et al. (2003), Tackling the Poor Assumptions of Naive Bayes Text Classifiers). The top 10 tokens that characterize the text as negative or optimistic were extracted, but they turned out to be non-offensive. The second model was based on Bert (87% accuracy rate).
+The dataset is available at the following link: https://www.kaggle.com/kazanova/sentiment140
